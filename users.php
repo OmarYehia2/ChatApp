@@ -24,6 +24,7 @@
           </div>
         </div>
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
+        <a href="php/update.php?update_id=<?php echo $row['unique_id']; ?>" class="logout">Update</a>
       </header>
       <div class="search">
         <span class="text">Select an user to start chat</span>
@@ -37,6 +38,6 @@
   </div>
 
   <script src="javascript/users.js"></script>
-
+  
 </body>
 </html>

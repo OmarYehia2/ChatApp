@@ -29,11 +29,12 @@
       <div class="chat-box">
 
       </div>
-      <form action="#" class="typing-area">
+      <form action="#" class="typing-area" enctype="multipart/form-data">
         <input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
         <input type="text" name="message" class="input-field" placeholder="Type a message here..." autocomplete="off">
+        <input type="file" name="file" class="file-input">
         <button><i class="fab fa-telegram-plane"></i></button>
-      </form>
+    </form>
     </section>
   </div>
 
