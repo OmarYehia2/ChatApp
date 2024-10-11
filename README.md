@@ -9,4 +9,9 @@
 </h2>
 
 ![Log In](https://github.com/user-attachments/assets/c8e2f4f5-d587-4aea-a855-533b2bf1343c)
+<h2>
+  Freinds List
+</h2>
+
+![Log In](https://github.com/user-attachments/assets/b7a8a08f-30ca-41e7-b642-85b046e20057)
 
