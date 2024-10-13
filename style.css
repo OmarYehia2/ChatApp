@@ -36,6 +36,8 @@ body{
 .form form{
   margin: 20px 0;
 }
+
+
 .form form .error-text{
   color: #721c24;
   padding: 8px 10px;
@@ -340,6 +342,7 @@ body{
   border-radius: 0 5px 5px 0;
   transition: all 0.3s ease;
 }
+
 .typing-area button.active{
   opacity: 1;
   pointer-events: auto;

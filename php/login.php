@@ -15,16 +15,20 @@
                 if($sql2){
                     $_SESSION['unique_id'] = $row['unique_id'];
                     echo "success";
-                }else{
+                }
+                else{
                     echo "Something went wrong. Please try again!";
                 }
-            }else{
+            }
+            else{
                 echo "Email or Password is Incorrect!";
             }
-        }else{
+        }
+        else{
             echo "$email - This email not Exist!";
         }
-    }else{
+    }
+    else{
         echo "All input fields are required!";
     }
 ?>
